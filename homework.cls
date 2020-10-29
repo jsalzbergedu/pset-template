@@ -9,6 +9,7 @@
 \RequirePackage{amsfonts}
 \RequirePackage{tikz}
 \RequirePackage[plain]{algorithm}
+\RequirePackage{algorithmic}
 
 \newcommand{\authorName}{\hmwkAuthorName}
 \DeclareOption{anonymous}{\renewcommand{\authorName}{Anon.}}
@@ -101,7 +102,7 @@
 \author{\authorName}
 \date{}
 
-\renewcommand{\part}[1]{\textbf{\large Part \Alph{partCounter}}\stepcounter{partCounter}\\}
+\renewcommand{\part}{\textbf{\large Part \Alph{partCounter}}\stepcounter{partCounter}\\}
 
 %
 % Various Helper Commands
